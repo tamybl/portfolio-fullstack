@@ -1,10 +1,10 @@
 import styles from '@/styles/AboutPage.module.css';
 
-const AboutPage = () => {
+const SkillsPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Tamara Bravo</h1>
+        <h1 className={styles.title}>Conocimientos</h1>
         <div className={styles.subtitle}>Fullstack Developer</div>
 
         <div className={styles.aboutContent}>
@@ -39,8 +39,8 @@ const AboutPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'About' },
+    props: { title: 'Skills' },
   };
 }
 
-export default AboutPage;
+export default SkillsPage;

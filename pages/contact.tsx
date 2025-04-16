@@ -5,10 +5,10 @@ import styles from '@/styles/ContactPage.module.css';
 const ContactPage = () => {
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>Contact Me</h1>
+      <h1 className={styles.pageTitle}>Contáctame</h1>
       <p className={styles.pageSubtitle}>
-        Feel free to reach out to me through any of the social platforms below.
-        I&apos;m always open to new opportunities and connections.
+      Estoy siempre abierta a nuevas oportunidades, colaboraciones y conexiones.
+      No dudes en escribirme a través de cualquiera de las plataformas que encontrarás a continuación.
       </p>
       <div className={styles.container}>
         <div className={styles.contactContainer}>

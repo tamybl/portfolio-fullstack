@@ -14,9 +14,9 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
+    { code: "    name: 'Tamara Bravo',", type: 'array-item' },
     { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    bio: 'Construyendo experiencias web modernas'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -33,7 +33,7 @@ export default function HomePage() {
     { code: '      <p>{developerInfo.role}</p>', type: 'object-method' },
     { code: '      <div className="cta">', type: 'object-method' },
     {
-      code: '        <Link href="/projects">View Projects</Link>',
+      code: '        <Link href="/projects">Ver Proyectos</Link>',
       type: 'object-method',
     },
     { code: '      </div>', type: 'object-method' },
@@ -91,19 +91,19 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Tamara <span className={styles.accentText}>Bravo</span>
           </h1>
 
           <div className={styles.developerRole}>Full Stack Web Developer</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+          Creo aplicaciones web modernas y eficientes, cuidando cada detalle desde la experiencia de usuario hasta la integración 
+          entre sistemas con tecnologías backend actuales.
           </p>
 
           <div className={styles.actionLinks}>
             <Link href="/projects" className={styles.primaryLink}>
-              View Projects <VscArrowRight />
+              Ver Proyectos <VscArrowRight />
             </Link>
           </div>
         </div>

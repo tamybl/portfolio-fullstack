@@ -35,3 +35,10 @@ export interface User {
   public_repos: number;
   followers: number;
 }
+
+export interface Skill {
+  title: string;
+  icon?: string;
+  img?: string;
+  type: string;
+}

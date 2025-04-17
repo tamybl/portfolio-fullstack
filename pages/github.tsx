@@ -18,9 +18,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
       <div className={styles.pageHeading}>
         <h1 className={styles.pageTitle}>GitHub</h1>
         <p className={styles.pageSubtitle}>
-          Browse through my GitHub repositories and see what I&apos;ve been
-          working on. These are some of my public repositories showcasing
-          various projects and skills.
+        Explora mis repositorios en GitHub y conoce los proyectos en los que he estado trabajando. Aquí encontrarás ejemplos públicos que reflejan mis habilidades y áreas de especialización.
         </p>
       </div>
 

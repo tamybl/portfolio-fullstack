@@ -10,11 +10,11 @@ const CustomHead = ({ title }: CustomHeadProps) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use"
+        content="Tamara Bravo is an avid full stack web developer building websites and applications you'd love to use"
       />
       <meta
         name="keywords"
-        content="nitin ranganath, nitin, ranganath, web developer portfolio, nitin web developer, nitin developer, mern stack, nitin ranganath portfolio, vscode-portfolio"
+        content="tamara bravo, tamara, bravo, web developer portfolio, tamara web developer, tamybl developer, mern stack, tamara bravo portfolio, vscode-portfolio"
       />
       <meta property="og:title" content="Tamara Bravo | Portfolio" />
       <meta

@@ -8,35 +8,43 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'SERVITC',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+      'Tienda virtual para la venta de productos y servicios de mantenimiento industrial.',
+    logo: '/logos/servitc.svg',
+    link: 'https://www.servitc.cl',
+    slug: 'servitc',
   },
   {
-    title: 'VSCode Portfolio',
+    title: '1WS',
     description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
-    logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
-    slug: 'vscode-portfolio',
+      'Agencia de marketing digital y desarrollo web.',
+    logo: '/logos/1ws.svg',
+    link: 'https://www.1ws.cl',
+    slug: '1ws',
   },
   {
-    title: 'Subtrackt',
+    title: 'Trekly',
     description:
-      'A simple and elegant way to track your subscriptions and save money.',
-    logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
-    slug: 'subtrackt',
+      'Una plataforma para compartir y descubrir rutas de trekking.',
+    logo: '/logos/trekly.svg',
+    link: 'trekly.1ws.cl',
+    slug: 'trekly',
   },
   {
-    title: 'Coolify Deployments',
+    title: 'Finance Calculator',
     description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
+      'Calculadora de finanzas para calcular el costo de un crédito e inversiones.',
+    logo: '/logos/finance.svg',
+    link: 'https://github.com/tamybl/finance-calculator',
+    slug: 'finance-calculator'
+  },
+  {
+    title: 'Bralishop',
+    description:
+      'Las mejores comparativas en productos de tecnología y hogar.',
+    logo: '/logos/bralishop.svg',
+    link: 'https://www.bralishop.com',
+    slug: 'bralishop'
   },
 ];

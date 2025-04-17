@@ -9,32 +9,32 @@ const explorerItems = [
   {
     name: 'inicio.tsx',
     path: '/',
-    icon: '/logos/react_icon.svg',
+    icon: 'images/logos/react_icon.svg',
   },
   {
     name: 'perfil.html',
     path: '/about',
-    icon: '/logos/html_icon.svg',
+    icon: 'images/logos/html_icon.svg',
   },
   {
     name: 'conocimientos.json',
     path: '/skills',
-    icon: '/logos/json_icon.svg',
+    icon: 'images/logos/json_icon.svg',
   },
   {
     name: 'proyectos.js',
     path: '/projects',
-    icon: '/logos/js_icon.svg',
+    icon: 'images/logos/js_icon.svg',
   },
   {
     name: 'contacto.css',
     path: '/contact',
-    icon: '/logos/css_icon.svg',
+    icon: 'images/logos/css_icon.svg',
   },
   {
     name: 'github.md',
     path: '/github',
-    icon: '/logos/markdown_icon.svg',
+    icon: 'images/logos/markdown_icon.svg',
   },
 ];
 

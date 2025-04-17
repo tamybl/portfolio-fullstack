@@ -28,7 +28,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Más allá del código</h2>
             <p className={styles.paragraph}>
-              Me gusta la música, canto y toco el piano, tengo un proyecto musical llamado <span className={styles.highlight}>Temporal Silhouettes</span>. Me gusta leer, ver películas y series. Me gusta aprender cosas nuevas y compartir lo que sé. Me gusta escribir sobre crecimiento personal y desarrollo profesional. Tambien estoy encargada del area digital para <span className={styles.highlight}>SERVITC</span> una empresa de mantenimiento industrial de la cual soy socia desde el 2024.
+              Me gusta la música, canto y toco el piano, tengo un proyecto musical llamado <span className={styles.highlight}>Temporal Silhouettes</span>. Me gusta leer, ver películas y series. Me gusta aprender cosas nuevas y compartir lo que sé. Me gusta escribir sobre crecimiento personal y desarrollo profesional. Tambien estoy encargada del area digital para <span className={styles.highlight}>SERVITC</span> una empresa de mantenimiento industrial de la cual soy socia y co-fundadora desde el 2023.
             </p>
           </section>
         </div>

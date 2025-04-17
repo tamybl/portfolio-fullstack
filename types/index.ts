@@ -38,7 +38,7 @@ export interface User {
 
 export interface Skill {
   title: string;
-  icon?: string;
-  img?: string;
+  icon?: string | undefined;
+  img?: string | undefined;
   type: string;
 }

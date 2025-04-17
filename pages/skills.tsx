@@ -1,7 +1,7 @@
-import styles from '@/styles/AboutPage.module.css';
-import Image from 'next/image';
+import styles from '@/styles/SkillsPage.module.css';
 import skills from '@/data/skills';
 import { SkillType } from '@/data/skills';
+import SkillCard from '@/components/SkillCard';
 
 const groupedSkills: Record<SkillType, typeof skills> = {
   Development: [],
@@ -19,37 +19,28 @@ const SkillsPage = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Conocimientos</h1>
-        <div className={styles.subtitle}>Tecnologías y herramientas que domino</div>
+        <div className={styles.subtitle}>A lo largo de mi trayectoria como desarrolladora, he trabajado con una variedad de tecnologías y herramientas que me permiten crear soluciones funcionales, escalables y centradas en el usuario. Aquí encontrarás una selección organizada de los lenguajes, frameworks, plataformas y herramientas que domino.</div>
 
         <div className={styles.aboutContent}>
-          {Object.entries(groupedSkills).map(([type, skills]) => (
-            <section className={styles.section} key={type}>
-              <h2 className={styles.sectionTitle}>
-                {type === 'development' && 'Desarrollo'}
-                {type === 'applications' && 'Aplicaciones'}
-                {type === 'management' && 'Gestión'}
-              </h2>
+        {Object.entries(groupedSkills).map(([type, group]) => (
+          <section className={styles.section} key={type}>
+            <h2 className={styles.sectionTitle}>
+              {type === 'Development' && 'Desarrollo'}
+              {type === 'Applications' && 'Aplicaciones'}
+              {type === 'Management' && 'Gestión'}
+              {type === 'Software' && 'Software'}
+            </h2>
 
-              <div className={styles.skillsGrid}>
-                {skills.map((skill, index) => (
-                  <div key={index} className={styles.skillItem}>
-                    {skill.icon ? (
-                      <i className={`${skill.icon} ${styles.skillIcon}`} />
-                    ) : (
-                    <Image
-                      src={skill.img ?? '/images/skills/default.svg'}
-                      alt={skill.title}
-                      width={48}
-                      height={48}
-                      className={styles.skillImg}
-                    />
-                    )}
-                    <span className={styles.skillTitle}>{skill.title}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          ))}
+            <div className={styles.skillsContent}>
+              {group.map((skill, index) => (
+                <SkillCard
+                  key={index}
+                  skill={skill}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
         </div>
       </div>
     </div>

@@ -3,23 +3,23 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'tamybl.1ws.cl',
+    link: '"tamybl.1ws.cl"',
     href: 'https://tamybl.1ws.cl',
   },
   {
     social: 'email',
-    link: 'tamara.bravo.l@gmail.com',
-    href: 'mailto:tamara.bravo.l@gmail.com',
+    link: '"contacto@1ws.cl"',
+    href: 'mailto:contacto@1ws.cl',
   },
   {
     social: 'github',
-    link: 'tamybl',
+    link: '"tamybl"',
     href: 'https://github.com/tamybl',
   },
   {
     social: 'linkedin',
-    link: 'tamarabravo',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: '"tamara-bravo-liberona"',
+    href: 'https://www.linkedin.com/in/tamara-bravo-liberona/',
   }
 ];
 

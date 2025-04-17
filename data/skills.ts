@@ -15,6 +15,7 @@ const skills: Skill[] = [
   { title: 'CSS3', icon: 'devicon-css3-plain', type: 'Development' },
   { title: 'Sass', icon: 'devicon-sass-original', type: 'Development' },
   { title: 'Bootstrap', icon: 'devicon-bootstrap-plain', type: 'Development' },
+  { title: 'Tailwind', icon: 'devicon-tailwindcss-original', type: 'Development' },
   { title: 'Vue.js', icon: 'devicon-vuejs-plain', type: 'Development' },
   { title: 'Vuex', img: '/images/skills/vuex.svg', type: 'Development' },
   { title: 'Vuetify', icon: 'devicon-vuetify-plain', type: 'Development' },
@@ -26,11 +27,11 @@ const skills: Skill[] = [
   { title: 'Firebase', icon: 'devicon-firebase-plain', type: 'Development' },
   { title: 'MongoDB', icon: 'devicon-mongodb-plain colored', type: 'Development' },
   { title: 'PostgreSQL', icon: 'devicon-postgresql-plain colored', type: 'Development' },
-  { title: 'Socket.io', img: '/images/skills/socketio.svg', type: 'Development' },
-  { title: 'Kafka', img: '/images/skills/kafka.svg', type: 'Development' },
-  { title: 'RabbitMQ', img: '/images/skills/rabbitmq.svg', type: 'Development' },
+  { title: 'Socket.io', icon: 'devicon-socketio-original', type: 'Development' },
+  { title: 'Kafka', icon: 'devicon-apachekafka-original', type: 'Development' },
+  { title: 'RabbitMQ', icon: 'devicon-rabbitmq-original', type: 'Development' },
   { title: 'WordPress', icon: 'devicon-wordpress-plain', type: 'Development' },
-  { title: 'Modyo', img: '/images/skills/modyo.svg', type: 'Development' },
+  { title: 'Modyo', img: '/images/skills/logo-modyo.jpg', type: 'Development' },
   { title: 'VeeValidate', img: '/images/skills/veevalidate.svg', type: 'Development' },
 
   // --- Gestión ---
@@ -39,7 +40,7 @@ const skills: Skill[] = [
   { title: 'GitLab', icon: 'devicon-gitlab-plain', type: 'Management' },
   { title: 'Bitbucket', icon: 'devicon-bitbucket-original', type: 'Management' },
   { title: 'Jira', icon: 'devicon-jira-plain', type: 'Management' },
-  { title: 'Confluence', icon: 'devicon-confluence-original', type: 'Management' },
+  { title: 'Confluence', icon: 'devicon-confluence-plain', type: 'Management' },
 
   // --- Software ---
   { title: 'Visual Studio', icon: 'devicon-visualstudio-plain', type: 'Software' },
